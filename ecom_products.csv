@@ -1,0 +1,53 @@
+product_id,product_name,category,sub_category,unit_price,cost_price
+1,Chairs ProMaxLitePlusUltra 57,Furniture,Chairs,4311.34,4192.18
+2,Chairs ProMaxLitePlusUltra 12,Furniture,Chairs,3911.93,3468.27
+3,Chairs ProMaxLitePlusUltra 84,Furniture,Chairs,4598.39,4205.56
+4,Chairs ProMaxLitePlusUltra 10,Furniture,Chairs,4078.93,3412.45
+5,Tables ProMaxLitePlusUltra 61,Furniture,Tables,7323.99,8694.15
+6,Tables ProMaxLitePlusUltra 22,Furniture,Tables,8439.67,9032.18
+7,Tables ProMaxLitePlusUltra 37,Furniture,Tables,11903.44,8282.33
+8,Tables ProMaxLitePlusUltra 41,Furniture,Tables,7478.19,7928.43
+9,Bookcases ProMaxLitePlusUltra 81,Furniture,Bookcases,4533.34,4936.15
+10,Bookcases ProMaxLitePlusUltra 97,Furniture,Bookcases,5058.33,4931.34
+11,Bookcases ProMaxLitePlusUltra 13,Furniture,Bookcases,4853.64,4641.37
+12,Bookcases ProMaxLitePlusUltra 76,Furniture,Bookcases,5553.73,5212.09
+13,Furnishings ProMaxLitePlusUltra 56,Furniture,Furnishings,1356.94,881.84
+14,Furnishings ProMaxLitePlusUltra 15,Furniture,Furnishings,1335.52,978.01
+15,Furnishings ProMaxLitePlusUltra 61,Furniture,Furnishings,1717.5,909.93
+16,Furnishings ProMaxLitePlusUltra 41,Furniture,Furnishings,1147.33,966.09
+17,Binders ProMaxLitePlusUltra 55,Office Supplies,Binders,425.94,294.04
+18,Binders ProMaxLitePlusUltra 47,Office Supplies,Binders,316.88,262.7
+19,Binders ProMaxLitePlusUltra 34,Office Supplies,Binders,301.26,256.18
+20,Binders ProMaxLitePlusUltra 19,Office Supplies,Binders,337.55,298.43
+21,Paper ProMaxLitePlusUltra 75,Office Supplies,Paper,395.89,194.8
+22,Paper ProMaxLitePlusUltra 18,Office Supplies,Paper,256.1,220.31
+23,Paper ProMaxLitePlusUltra 97,Office Supplies,Paper,381.96,192.25
+24,Paper ProMaxLitePlusUltra 38,Office Supplies,Paper,291.78,207.99
+25,Storage ProMaxLitePlusUltra 87,Office Supplies,Storage,1719.78,1661.29
+26,Storage ProMaxLitePlusUltra 51,Office Supplies,Storage,1412.65,1711.45
+27,Storage ProMaxLitePlusUltra 43,Office Supplies,Storage,1246.0,1768.22
+28,Storage ProMaxLitePlusUltra 25,Office Supplies,Storage,2077.38,1589.63
+29,Art ProMaxLitePlusUltra 90,Office Supplies,Art,438.5,341.37
+30,Art ProMaxLitePlusUltra 67,Office Supplies,Art,448.49,354.95
+31,Art ProMaxLitePlusUltra 48,Office Supplies,Art,440.79,415.91
+32,Art ProMaxLitePlusUltra 28,Office Supplies,Art,403.22,354.69
+33,Appliances ProMaxLitePlusUltra 76,Office Supplies,Appliances,3763.53,3014.22
+34,Appliances ProMaxLitePlusUltra 69,Office Supplies,Appliances,3937.59,3331.86
+35,Appliances ProMaxLitePlusUltra 45,Office Supplies,Appliances,3039.94,3149.41
+36,Appliances ProMaxLitePlusUltra 55,Office Supplies,Appliances,2924.06,2900.81
+37,Phones ProMaxLitePlusUltra 43,Technology,Phones,20338.2,13376.48
+38,Phones ProMaxLitePlusUltra 82,Technology,Phones,21688.29,14992.31
+39,Phones ProMaxLitePlusUltra 84,Technology,Phones,22252.18,16207.8
+40,Phones ProMaxLitePlusUltra 65,Technology,Phones,16569.14,16168.14
+41,Accessories ProMaxLitePlusUltra 42,Technology,Accessories,1458.5,1165.91
+42,Accessories ProMaxLitePlusUltra 41,Technology,Accessories,1783.38,1237.27
+43,Accessories ProMaxLitePlusUltra 44,Technology,Accessories,1480.37,1251.48
+44,Accessories ProMaxLitePlusUltra 71,Technology,Accessories,1675.89,1329.7
+45,Machines ProMaxLitePlusUltra 97,Technology,Machines,50632.32,38387.77
+46,Machines ProMaxLitePlusUltra 18,Technology,Machines,44103.32,41623.89
+47,Machines ProMaxLitePlusUltra 66,Technology,Machines,32443.0,41530.4
+48,Machines ProMaxLitePlusUltra 23,Technology,Machines,48857.09,47570.79
+49,Copiers ProMaxLitePlusUltra 93,Technology,Copiers,24383.87,25983.6
+50,Copiers ProMaxLitePlusUltra 24,Technology,Copiers,32122.03,27707.22
+51,Copiers ProMaxLitePlusUltra 92,Technology,Copiers,29838.95,25859.51
+52,Copiers ProMaxLitePlusUltra 73,Technology,Copiers,35725.17,30167.76
