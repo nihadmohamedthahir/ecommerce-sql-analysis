@@ -12,6 +12,12 @@ Synthetic dataset built to practise the full analysis workflow.
 ## Tools
 MySQL 8.0, Excel
 
+## Repository contents
+- `ecommerce_analysis.sql` — full analysis script
+- `ecom_*.csv` — source data (4 tables)
+- `0X_*.csv` — query result exports
+- `*.png` — charts
+
 ## Data quality checks
 - 0 orphan order items, 0 orders predating customer signup
 - 9.15% of orders cancelled or returned; excluded from revenue
