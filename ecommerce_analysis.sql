@@ -91,6 +91,28 @@ FROM orders
 GROUP BY status
 ORDER BY orders DESC;
 
+-- 1.5 Sensitivity check -- does the revenue definition change the conclusion?
+-- 'delivered' only is the conservative choice. This compares the peak month and
+-- the size of the decline under three definitions, to show the trend is not an
+-- artefact of where the line was drawn.
+WITH defs AS (
+    SELECT DATE_FORMAT(o.order_date, '%Y-%m') AS order_month,
+           SUM(CASE WHEN o.status = 'delivered'
+                    THEN oi.line_total ELSE 0 END)                  AS delivered_only,
+           SUM(CASE WHEN o.status IN ('delivered','shipped')
+                    THEN oi.line_total ELSE 0 END)                  AS delivered_shipped,
+           SUM(oi.line_total)                                       AS all_statuses
+    FROM orders o
+    JOIN order_items oi ON o.order_id = oi.order_id
+    GROUP BY order_month
+)
+SELECT order_month,
+       ROUND(delivered_only, 2)     AS delivered_only,
+       ROUND(delivered_shipped, 2)  AS delivered_shipped,
+       ROUND(all_statuses, 2)       AS all_statuses
+FROM defs
+ORDER BY order_month;
+
 
 -- ============================================================================
 -- SECTION 2 -- REVENUE TRENDS
