@@ -257,11 +257,19 @@ WHERE o.status = 'delivered'
 GROUP BY discount_band
 ORDER BY margin_pct DESC;
 
--- 4.4 Products sold at a loss (subquery in the WHERE clause)
-SELECT p.product_name, p.category,
+-- 4.4 Products sold at a loss (HAVING filters on the aggregate, which WHERE cannot)
+-- NOTE: joins to orders and filters on 'delivered' like every other query in this
+-- file. Without that join this counts cancelled and returned lines too, which
+-- overstates the losses by about 15%.
+SELECT p.product_name,
+       p.category,
+       SUM(oi.quantity)                                            AS units_sold,
+       ROUND(SUM(oi.line_total), 2)                                AS revenue,
        ROUND(SUM(oi.line_total - (p.cost_price * oi.quantity)), 2) AS profit
 FROM order_items oi
 JOIN products p ON oi.product_id = p.product_id
+JOIN orders   o ON oi.order_id   = o.order_id
+WHERE o.status = 'delivered'
 GROUP BY p.product_name, p.category
 HAVING profit < 0
 ORDER BY profit ASC;
