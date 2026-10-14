@@ -86,4 +86,6 @@ JOIN, GROUP BY, HAVING, CTEs, subqueries, and window functions
 
 ![Revenue Concentration](revenue_concentration.png)
 
+![Loss-Making Products](loss_products.png)
+
 ![Discount Impact](discount_margin.png)
