@@ -61,8 +61,7 @@ CREATE TABLE order_items (
 
 -- ============================================================================
 -- SECTION 1 -- DATA QUALITY CHECKS
--- Always run these first. In an interview, "I validated the data before
--- analysing it" is a strong thing to be able to say.
+-- Always run these first. 
 -- ============================================================================
 
 -- 1.1 Row counts
