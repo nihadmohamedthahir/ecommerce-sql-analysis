@@ -14,7 +14,7 @@
 
 -- ----------------------------------------------------------------------------
 -- SETUP: create the schema, then import the four CSVs with the Table Data
--- Import Wizard in MySQL Workbench (right-click the schema > Table Data Import).
+-- Import Wizard in MySQL Workbench.
 -- ----------------------------------------------------------------------------
 CREATE DATABASE IF NOT EXISTS ecommerce;
 USE ecommerce;
